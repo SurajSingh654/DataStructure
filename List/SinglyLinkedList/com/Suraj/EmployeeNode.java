@@ -6,7 +6,8 @@ public class EmployeeNode {
     private EmployeeNode next;
 
     public EmployeeNode(Employee employee) {
-        this.employee = employee;
+        this.employee = employee; // Put data in node
+        this.next = null; // by default next points to null
     }
 
     public Employee getEmployee() {
